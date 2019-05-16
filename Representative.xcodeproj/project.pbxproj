@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		17FF8320228DF5220093FFD8 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF831F228DF5220093FFD8 /* SearchResult.swift */; };
 		17FF8322228DF6350093FFD8 /* StateListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF8321228DF6350093FFD8 /* StateListTableViewController.swift */; };
+		17FF8325228DF7250093FFD8 /* RepDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF8324228DF7250093FFD8 /* RepDetailTableViewController.swift */; };
+		17FF8327228DFA8D0093FFD8 /* RepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF8326228DFA8D0093FFD8 /* RepTableViewCell.swift */; };
+		17FF832A228DFD9C0093FFD8 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FF8329228DFD9C0093FFD8 /* SearchResultController.swift */; };
 		B755BBB6219DE93E00A9E085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755BBB5219DE93E00A9E085 /* AppDelegate.swift */; };
 		B755BBBB219DE93E00A9E085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B755BBB9219DE93E00A9E085 /* Main.storyboard */; };
 		B755BBBD219DE94000A9E085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B755BBBC219DE94000A9E085 /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		17FF831F228DF5220093FFD8 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		17FF8321228DF6350093FFD8 /* StateListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListTableViewController.swift; sourceTree = "<group>"; };
+		17FF8324228DF7250093FFD8 /* RepDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepDetailTableViewController.swift; sourceTree = "<group>"; };
+		17FF8326228DFA8D0093FFD8 /* RepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTableViewCell.swift; sourceTree = "<group>"; };
+		17FF8329228DFD9C0093FFD8 /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
 		B755BBB2219DE93E00A9E085 /* Representative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Representative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B755BBB5219DE93E00A9E085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B755BBBA219DE93E00A9E085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +50,7 @@
 			children = (
 				B755BBC7219DE95C00A9E085 /* States.swift */,
 				17FF831F228DF5220093FFD8 /* SearchResult.swift */,
+				17FF8329228DFD9C0093FFD8 /* SearchResultController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -52,8 +59,17 @@
 			isa = PBXGroup;
 			children = (
 				17FF8321228DF6350093FFD8 /* StateListTableViewController.swift */,
+				17FF8324228DF7250093FFD8 /* RepDetailTableViewController.swift */,
 			);
 			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		17FF8328228DFB090093FFD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17FF8326228DFA8D0093FFD8 /* RepTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B755BBA9219DE93E00A9E085 = {
@@ -76,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				B755BBB5219DE93E00A9E085 /* AppDelegate.swift */,
+				17FF8328228DFB090093FFD8 /* View */,
 				17FF831E228DF4F40093FFD8 /* Model */,
 				B755BBB9219DE93E00A9E085 /* Main.storyboard */,
 				17FF8323228DF6450093FFD8 /* View Controller */,
@@ -157,6 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FF832A228DFD9C0093FFD8 /* SearchResultController.swift in Sources */,
+				17FF8325228DF7250093FFD8 /* RepDetailTableViewController.swift in Sources */,
+				17FF8327228DFA8D0093FFD8 /* RepTableViewCell.swift in Sources */,
 				B755BBC8219DE95C00A9E085 /* States.swift in Sources */,
 				17FF8322228DF6350093FFD8 /* StateListTableViewController.swift in Sources */,
 				17FF8320228DF5220093FFD8 /* SearchResult.swift in Sources */,

@@ -8,16 +8,19 @@
 
 import Foundation
 
-struct SearchResult{
+struct SearchResult: Decodable{
     let results: [Representative]
 }
 
-struct Representative{
-    let name: String
+struct Representative: Decodable{
+    let name: String?
     let party: String
     let state: String
     let district: String
     let phone: String
     let office: String
     let link: String
+    
+    //everything in the API is intuitively named, so we dont need coding keys
+    
 }
